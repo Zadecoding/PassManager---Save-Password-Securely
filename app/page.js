@@ -20,7 +20,7 @@ export default function Home() {
     
     <p className="py-4">You can directly save your password to our database and can access when ever you want </p>
    
-   <Link href="/dashboard"><button className="border-2 p-2 rounded-md my-10 bg-blue-200">Get Started</button> </Link>
+   <Link href="/dashboard"><button className="border-2 p-2 rounded-md my-10 bg-blue-200">Redirect to Dashboard</button> </Link>
    </div>
    </>
   );
