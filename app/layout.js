@@ -21,6 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=process.env.NEXT_PUBLIC_GOOGLE_AD_CLIENT_ID"
+     crossorigin="anonymous"></script>
+      </head>
       <SessionWrapper>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
